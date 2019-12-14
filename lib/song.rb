@@ -56,7 +56,7 @@ class Song
     song.name = filename.split("-")[1].split(".")[0].strip
     song.artist_name = filename.split("-")[0].strip
     song
-    binding.pry
+    # binding.pry
     
   end 
   
