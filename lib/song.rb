@@ -55,8 +55,6 @@ class Song
     song = self.new 
     self.find_or_create_by_name(filename)
     song.name = filename.split("-")[1].split(".")[0].strip
-    # self.class.all << self
-    self.all
     song
     # binding.pry
     
