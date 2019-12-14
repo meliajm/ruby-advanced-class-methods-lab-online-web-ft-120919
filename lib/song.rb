@@ -53,7 +53,6 @@ class Song
   
   def self.create_from_filename(filename)
     song = self.new 
-    self.find_or_create_by_name(filename)
     song.name = filename.split("-")[1].split(".")[0].strip
     song
     # binding.pry
